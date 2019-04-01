@@ -56,16 +56,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item <?= $this->request->params['pass'][0] === 'index' ? 'active' : '' ?>">
+                    <li class="nav-item <?= $this->request->getParam('pass')[0] === 'index' ? 'active' : '' ?>">
                         <a class="nav-link" href="inicio">Início<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item <?= $this->request->params['pass'][0] === 'sobre' ? 'active' : '' ?>">
+                    <li class="nav-item <?= $this->request->getParam('pass')[0] === 'sobre' ? 'active' : '' ?>">
                         <a class="nav-link" href="sobre">Sobre</a>
                     </li>
-                    <li class="nav-item <?= $this->request->params['pass'][0] === 'lista' ? 'active' : '' ?>">
+                    <li class="nav-item <?= $this->request->getParam('pass')[0] === 'lista' ? 'active' : '' ?>">
                         <a class="nav-link" href="lista">Lista</a>
                     </li>
-                    <li class="nav-item <?= $this->request->params['pass'][0] === 'contato' ? 'active' : '' ?>">
+                    <li class="nav-item <?= $this->request->getParam('pass')[0] === 'contato' ? 'active' : '' ?>">
                         <a class="nav-link" href="contato">Contato</a>
                     </li>
                 </ul>
