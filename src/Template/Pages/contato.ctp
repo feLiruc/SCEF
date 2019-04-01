@@ -16,6 +16,7 @@
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entre com um email válido" required>
                             <small id="emailHelp" class="form-text text-muted">Nós não compartilhamos seu e-mail com mais ninguém.</small>
                         </div>
+                        
                         <div class="form-group">
                             <label for="message">Mensagem</label>
                             <textarea class="form-control" id="message" rows="6" required></textarea>
